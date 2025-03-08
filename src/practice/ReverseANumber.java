@@ -11,9 +11,9 @@ public class ReverseANumber {
 		int num = sc.nextInt();
 		
 		int rev = 0;
-		while(num !=0) {
-			rev =rev*10 + num%10;
-			num = num /10;
+		while(num != 0) {
+			rev = rev *10 +num %10;
+			num = num / 10;
 		}
 		System.out.println(rev);
 		// TODO Auto-generated method stub

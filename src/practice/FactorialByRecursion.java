@@ -10,7 +10,6 @@ public class FactorialByRecursion {
 		if(n>=1) {
 			fact = fact*n;
 			calFact(n-1);
-				
 		}
 		
 		
